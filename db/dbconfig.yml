@@ -1,0 +1,7 @@
+development:
+  dialect: postgres
+  host: 127.0.0.1
+  pool: 5
+  schema: public
+  datasource: dbname=postgres sslmode=disable user=postgres password=password
+  dir: db/migrations
